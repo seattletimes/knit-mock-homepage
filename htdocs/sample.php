@@ -1,4 +1,5 @@
 <?php
+// Include role file configuration
 include_once "/raid/hub/knit/include/role.inc";
 print_r($ROLES);
 
