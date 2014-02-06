@@ -3,7 +3,7 @@
 include_once "/raid/hub/knit/include/role.inc";
 print_r($ROLES);
 
-/*
+/**
  * Displays a message
  * 
  * @param $message Message to display
