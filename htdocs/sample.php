@@ -11,6 +11,8 @@ print_r($ROLES);
  * @return Message formatted with HTML tags
  * @note Not a great idea to print HTML from PHP
  * @todo Make this do more formatting
+ * @hack This is thrown together for now as a demo
+ * @sideeffect none actually :-)
  */
 function display($message = "Welcome!", $size = "h2") {
     if (!preg_match('/^h[1-6]$/', $size)) {
