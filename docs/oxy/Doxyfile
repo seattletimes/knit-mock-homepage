@@ -25,19 +25,21 @@ DOXYFILE_ENCODING      = UTF-8
 # The PROJECT_NAME tag is a single word (or sequence of words) that should
 # identify the project. Note that if you do not use Doxywizard you need
 # to put quotes around the project name if it contains spaces.
+# demo1
 
 PROJECT_NAME           = "Knit Mock Homepage"
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number.
 # This could be handy for archiving the generated documentation or
 # if some version control system is used.
+# demo1
 
 PROJECT_NUMBER         = "1.0"
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer
 # a quick idea about the purpose of the project. Keep the description short.
-
+# demo1
 PROJECT_BRIEF          = "Knit Mock Homepage for dev integration"
 
 # With the PROJECT_LOGO tag one can specify an logo or icon that is
@@ -51,6 +53,7 @@ PROJECT_LOGO           =
 # base path where the generated documentation will be put.
 # If a relative path is entered, it will be relative to the location
 # where doxygen was started. If left blank the current directory will be used.
+# demo2
 
 OUTPUT_DIRECTORY       =
 
@@ -192,6 +195,7 @@ TAB_SIZE               = 4
 # put the command \sideeffect (or @sideeffect) in the documentation, which
 # will result in a user-defined paragraph with heading "Side Effects:".
 # You can put \n's in the value part of an alias to insert newlines.
+# demo3
 
 ALIASES               += sideeffect=\par Side Effects:\n
 ALIASES               += hack=\par Hacks:\n
@@ -347,11 +351,13 @@ LOOKUP_CACHE_SIZE      = 0
 # documentation are documented, even if no documentation was available.
 # Private class members and static file members will be hidden unless
 # the EXTRACT_PRIVATE and EXTRACT_STATIC tags are set to YES
+# demo2
 
 EXTRACT_ALL            = YES
 
 # If the EXTRACT_PRIVATE tag is set to YES all private members of a class
 # will be included in the documentation.
+# demo2
 
 EXTRACT_PRIVATE        = YES
 
@@ -407,6 +413,7 @@ HIDE_FRIEND_COMPOUNDS  = NO
 # documentation blocks found inside the body of a function.
 # If set to NO (the default) these blocks will be appended to the
 # function's detailed documentation block.
+# demo2
 
 HIDE_IN_BODY_DOCS      = NO
 
@@ -459,6 +466,7 @@ SORT_MEMBER_DOCS       = YES
 # brief documentation of file, namespace and class members alphabetically
 # by member name. If set to NO (the default) the members will appear in
 # declaration order.
+# demo2
 
 SORT_BRIEF_DOCS        = NO
 
@@ -506,12 +514,14 @@ GENERATE_TODOLIST      = YES
 # The GENERATE_TESTLIST tag can be used to enable (YES) or
 # disable (NO) the test list. This list is created by putting \test
 # commands in the documentation.
+# demo3
 
 GENERATE_TESTLIST      = YES
 
 # The GENERATE_BUGLIST tag can be used to enable (YES) or
 # disable (NO) the bug list. This list is created by putting \bug
 # commands in the documentation.
+# demo3
 
 GENERATE_BUGLIST       = YES
 
@@ -523,6 +533,7 @@ GENERATE_DEPRECATEDLIST= YES
 
 # The ENABLED_SECTIONS tag can be used to enable conditional
 # documentation sections, marked by \if sectionname ... \endif.
+# demo3
 
 ENABLED_SECTIONS       = \if hack \endif
 
@@ -649,6 +660,7 @@ WARN_LOGFILE           =
 # documented source files. You may enter file names like "myfile.cpp" or
 # directories like "/usr/src/myproject". Separate the files or directories
 # with spaces.
+# demo1
 
 INPUT                  = /raid/hub/dev.seattletimes.com/htdocs
 
@@ -673,6 +685,7 @@ FILE_PATTERNS          =
 # The RECURSIVE tag can be used to turn specify whether or not subdirectories
 # should be searched for input files as well. Possible values are YES and NO.
 # If left blank NO is used.
+# demo2
 
 RECURSIVE              = YES 
 
@@ -687,6 +700,7 @@ EXCLUDE                =
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
 # from the input.
+# demo2
 
 EXCLUDE_SYMLINKS       = NO
 
@@ -776,11 +790,13 @@ FILTER_SOURCE_PATTERNS =
 # be generated. Documented entities will be cross-referenced with these sources.
 # Note: To get rid of all source code in the generated output, make sure also
 # VERBATIM_HEADERS is set to NO.
+# demo2
 
-SOURCE_BROWSER         = NO
+SOURCE_BROWSER         = YES
 
 # Setting the INLINE_SOURCES tag to YES will include the body
 # of functions and classes directly in the documentation.
+# demo2
 
 INLINE_SOURCES         = YES
 
